@@ -2,7 +2,7 @@
 
 ### Senior Full-Stack Software Engineer | React & Next.js | Python & Django | AI / LLM Applications
 
-I’m a software engineer based in Ontario, Canada, with **10+ years of professional software development experience** building and maintaining production applications. I work across frontend architecture, backend APIs, database integration, automated testing, and delivery pipelines. More recently, I’ve been building practical **AI-powered applications** using LangGraph, OpenAI APIs, retrieval-augmented generation (RAG), and vector search.
+I’m a software engineer based in Ontario, Canada, with **17+ years of professional software development experience** building and maintaining production applications. I work across frontend architecture, backend APIs, database integration, automated testing, and delivery pipelines. More recently, I’ve been building practical **AI-powered applications** using LangGraph, OpenAI APIs, retrieval-augmented generation (RAG), and vector search.
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
@@ -12,7 +12,7 @@ I’m a software engineer based in Ontario, Canada, with **10+ years of professi
 
 - **Production full-stack engineering:** React, Next.js, TypeScript, Python, Django, Django REST Framework, REST APIs, and WebSockets.
 - **Enterprise software delivery:** Developed and maintained applications at **NCR / Candescent (2021–2026)**, including shared React components used by at least five applications or development teams and real-time server-driven UI updates.
-- **AI application development:** LangGraph agent workflows, OpenAI API integration, embeddings, FAISS, and RAG-based information retrieval.
+- **AI application development:** Designed document ingestion and chunking, embedding and vector retrieval pipelines, LangGraph orchestration, grounded LLM responses, and AI-assisted training features.
 - **Quality and delivery:** Playwright end-to-end testing, automated testing, Git, Jenkins pipelines, Docker, and accessibility-conscious frontend development using WCAG guidance.
 - **Experience beyond the JavaScript ecosystem:** Professional Java development at Tekdesk, C#, AWS services, SQL databases, and backend systems.
 
@@ -22,7 +22,7 @@ I’m a software engineer based in Ontario, Canada, with **10+ years of professi
 | --- | --- |
 | **Frontend** | React, Next.js, React Native (Expo), TypeScript, JavaScript, Tailwind CSS, shadcn/ui |
 | **Backend** | Python, Django, Django REST Framework, REST APIs, WebSockets, Java, C# |
-| **AI / LLM** | LangGraph, OpenAI APIs, RAG, embeddings, FAISS |
+| **AI / LLM** | LangGraph, LangChain, OpenAI APIs, RAG, embeddings, FAISS, PyTorch, multilingual MiniLM, Qwen |
 | **Databases** | PostgreSQL, MySQL / MariaDB, SQL |
 | **Cloud & DevOps** | AWS (EC2, S3, RDS, Lambda, Elastic Beanstalk), Docker, Jenkins, Git, CI/CD, cPanel |
 | **Testing & Quality** | Playwright, Vitest, accessibility / WCAG, API testing |
@@ -42,28 +42,34 @@ A production-oriented QR code generator with customizable designs, logo overlays
 
 **[Live demo](https://qrcode.founderdesigngroup.ca/)** · **[Frontend source](https://github.com/huachenlihx/qr-code-creator-frontend)**
 
-### United Supermarket — Business Applications
+### United Supermarket — Business Applications & AI Integration
 
-**Next.js · Django REST Framework · Python · SQL · React Native**
+**Next.js · Django REST Framework · Python · React Native · SQL · LangGraph · OpenAI APIs · RAG · FAISS**
 
-Built business-facing web and administrative applications with multilingual user interfaces and workflow automation.
+Built multilingual business-facing web and administrative applications with workflow automation, an AI-powered customer chat assistant, and AI-assisted employee training.
 
-- Developed customer-facing interfaces and Django-backed content/admin workflows.
-- Implemented operational reporting, document generation, and CSV/XLSX exports.
-- Built scheduled training reminders and other business-process features.
-- Resolved cross-subdomain authentication and CSRF issues across Next.js and Django services.
+- Developed customer-facing interfaces and Django-backed content and administrative workflows.
+- Implemented operational reporting, PDF document generation, and CSV/XLSX exports.
+- Built scheduled training reminders and other business-process automation features.
+- Built a **LangGraph-based RAG chat assistant** that ingests business knowledge from PDF, Markdown, and text documents, uses OpenAI embeddings and FAISS semantic retrieval, and generates document-grounded answers.
+- Added **AI-assisted training-question generation** in English and Chinese using OpenAI APIs, including caching and regeneration when training content changes.
+- Independently resolved cross-subdomain authentication and CSRF issues across Next.js and Django services.
 
 **[Live website](https://adelaide.unitedsupermarketlondon.ca/)**
 
 *Application source code is not publicly shared.*
 
-### AI-Powered Knowledge Retrieval
+### AI Engineering — RAG, Agents & Multilingual Document Q&A
 
-**Python · LangGraph · OpenAI APIs · FAISS · RAG**
+**LangGraph · LangChain · OpenAI APIs · FAISS · PyTorch · MiniLM · Qwen**
 
-Developed an AI-assisted retrieval workflow using embeddings and FAISS to retrieve relevant business knowledge and support LangGraph-based responses. Focused on connecting LLM capabilities to useful application features rather than stand-alone demonstrations.
+I design and develop practical AI capabilities that connect language models to application workflows and source documents, including:
 
-*Project details can be discussed without exposing private code or business data.*
+- **Production-integrated RAG (United Supermarket):** Personally designed document loading, chunking, OpenAI embedding generation (`text-embedding-3-small`), FAISS semantic retrieval, and LangGraph orchestration for a Django REST-backed chat assistant. Used GPT-4o mini for document-grounded responses and fallback behavior when relevant information is unavailable.
+- **AI-assisted employee training (United Supermarket):** Integrated OpenAI-powered English/Chinese question suggestions into training workflows. This is *document-grounded content generation*, distinct from the FAISS-backed chat retrieval pipeline.
+- **Local multilingual document Q&A (exploratory project):** Worked with multilingual MiniLM embeddings, PyTorch-based similarity retrieval, LangGraph, and a local Qwen model to explore private, document-based question answering. Evaluated grounding limitations when a model's answer did not reliably follow retrieved context.
+
+*The United Supermarket implementation is part of the business application above; private application code and business content are not publicly shared.*
 
 ## Open-source React / TypeScript packages
 
