@@ -6,7 +6,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
-[GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [npm packages](https://www.npmjs.com/~huachenlihx) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/)
+[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [npm packages](https://www.npmjs.com/~huachenlihx)
 
 ## What I bring
 
@@ -30,18 +30,6 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 ## Selected work
 
-### QR Code Creator — Full-Stack Web Application
-
-**Next.js · React · TypeScript · Python · Django REST Framework · Stripe**
-
-A production-oriented QR code generator with customizable designs, logo overlays, downloadable PNG/SVG/PDF assets and ZIP bundles, responsive UI, API integration, and Stripe donation checkout.
-
-- Designed frontend and backend capabilities for QR asset creation and delivery.
-- Implemented form protection, API integrations, and payment webhook handling.
-- Worked on PostgreSQL integration and deployment workflows for the Django backend.
-
-**[Live demo](https://qrcode.founderdesigngroup.ca/)** · **[Frontend source](https://github.com/huachenlihx/qr-code-creator-frontend)**
-
 ### United Supermarket — Business Applications & AI Integration
 
 **Next.js · Django REST Framework · Python · React Native · SQL · LangGraph · OpenAI APIs · RAG · FAISS**
@@ -58,6 +46,31 @@ Built multilingual business-facing web and administrative applications with work
 **[Live website](https://adelaide.unitedsupermarketlondon.ca/)**
 
 *Application source code is not publicly shared.*
+
+### United Supermarket Adelaide — React Native Mobile App
+
+**React Native · Expo · TypeScript · Django REST APIs · Firebase Cloud Messaging**
+
+Developed a mobile application for United Supermarket Adelaide, connecting shoppers to store information and weekly promotions while integrating with the existing Django backend.
+
+- Built weekly flyer browsing with image previews and zoom interactions, alongside store information and contact screens.
+- Implemented mobile push notifications using Firebase Cloud Messaging and Expo, with in-app announcements and navigation to relevant content.
+- Added application version checks and support for portrait and landscape layouts.
+- Integrated the mobile experience with Django REST APIs used by the broader United Supermarket platform.
+
+*Private repository; mobile application not publicly released.*
+
+### QR Code Creator — Full-Stack Web Application
+
+**Next.js · React · TypeScript · Python · Django REST Framework · Stripe**
+
+A production-oriented QR code generator with customizable designs, logo overlays, downloadable PNG/SVG/PDF assets and ZIP bundles, responsive UI, API integration, and Stripe donation checkout.
+
+- Designed frontend and backend capabilities for QR asset creation and delivery.
+- Implemented form protection, API integrations, and payment webhook handling.
+- Worked on PostgreSQL integration and deployment workflows for the Django backend.
+
+**[Live demo](https://qrcode.founderdesigngroup.ca/)** · **[Frontend source](https://github.com/huachenlihx/qr-code-creator-frontend)**
 
 ### AI Engineering — RAG, Agents & Multilingual Document Q&A
 
@@ -94,6 +107,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
+- **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
 - **Demo:** [QR Code Creator](https://qrcode.founderdesigngroup.ca/)
 
 I’m interested in opportunities where I can contribute to **senior full-stack engineering, frontend platform development, backend services, or AI-enabled products**.
