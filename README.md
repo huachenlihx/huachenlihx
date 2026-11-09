@@ -105,6 +105,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 
 ## Connect
 
+- **Email:** [huachenlihx@gmail.com](mailto:huachenlihx@gmail.com)
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
