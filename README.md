@@ -11,7 +11,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 ## What I bring
 
 - **Production full-stack engineering:** React, Next.js, TypeScript, Python, Django, Django REST Framework, REST APIs, and WebSockets.
-- **Enterprise software delivery:** Developed and maintained applications at **NCR / Candescent (2021–2026)**, including shared React components used by at least five applications or development teams and real-time server-driven UI updates.
+- **Enterprise software delivery:** Developed and maintained production applications at **NCR / Candescent (2021–2026)**, including reusable React components shared across multiple applications and development teams, and real-time UI updates powered by WebSockets.
 - **AI application development:** Designed document ingestion and chunking, embedding and vector retrieval pipelines, LangGraph orchestration, grounded LLM responses, and AI-assisted training features.
 - **Quality and delivery:** Playwright end-to-end testing, automated testing, Git, Jenkins pipelines, Docker, and accessibility-conscious frontend development using WCAG guidance.
 - **Experience beyond the JavaScript ecosystem:** Professional Java development at Tekdesk, C#, AWS services, SQL databases, and backend systems.
@@ -78,7 +78,7 @@ A production-oriented QR code generator with customizable designs, logo overlays
 
 I design and develop practical AI capabilities that connect language models to application workflows and source documents, including:
 
-- **Production-integrated RAG (United Supermarket):** Personally designed document loading, chunking, OpenAI embedding generation (`text-embedding-3-small`), FAISS semantic retrieval, and LangGraph orchestration for a Django REST-backed chat assistant. Used GPT-4o mini for document-grounded responses and fallback behavior when relevant information is unavailable.
+- **Production-integrated RAG (United Supermarket):** Personally designed and implemented a RAG pipeline using document loading and chunking, OpenAI embeddings, FAISS semantic retrieval, and LangGraph orchestration, integrated with a Django REST Framework-powered AI chat assistant. Used GPT-4o mini for document-grounded responses and fallback behavior when relevant information is unavailable.
 - **AI-assisted employee training (United Supermarket):** Integrated OpenAI-powered English/Chinese question suggestions into training workflows. This is *document-grounded content generation*, distinct from the FAISS-backed chat retrieval pipeline.
 - **Local multilingual document Q&A (exploratory project):** Worked with multilingual MiniLM embeddings, PyTorch-based similarity retrieval, LangGraph, and a local Qwen model to explore private, document-based question answering. Evaluated grounding limitations when a model's answer did not reliably follow retrieved context.
 
@@ -105,7 +105,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 
 ## Connect
 
-- **Email:** [huachenlihx@gmail.com](mailto:huachenlihx@gmail.com)
+- **Email:** `huachenlihx@gmail.com`
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
