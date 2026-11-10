@@ -6,7 +6,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
-[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [npm packages](https://www.npmjs.com/~huachenlihx)
+[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [npm packages](https://www.npmjs.com/~huachenlihx)
 
 ## What I bring
 
@@ -23,7 +23,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 | **Frontend** | React, Next.js, React Native (Expo), TypeScript, JavaScript, Tailwind CSS, shadcn/ui |
 | **Backend** | Python, Django, Django REST Framework, REST APIs, WebSockets, Java, C# |
 | **AI / LLM** | LangGraph, LangChain, OpenAI APIs, RAG, embeddings, FAISS, PyTorch, multilingual MiniLM, Qwen |
-| **Databases** | PostgreSQL, MySQL / MariaDB, SQL |
+| **Databases** | PostgreSQL, MySQL, MariaDB, Microsoft SQL Server |
 | **Cloud & DevOps** | AWS (EC2, S3, RDS, Lambda, Elastic Beanstalk), Docker, Jenkins, Git, CI/CD, cPanel |
 | **Testing & Quality** | Playwright, Vitest, accessibility / WCAG, API testing |
 | **Collaboration** | Jira, Agile development, code reviews, cross-team reusable components |
@@ -72,6 +72,28 @@ A production-oriented QR code generator with customizable designs, logo overlays
 
 **[Live demo](https://qrcode.founderdesigngroup.ca/)** · **[Frontend source](https://github.com/huachenlihx/qr-code-creator-frontend)**
 
+### Appointment Booking Platform — Full-Stack Web Application
+
+**Next.js 16 · React 19 · TypeScript · Tailwind CSS · Python · Django REST Framework · PostgreSQL · MySQL / MariaDB · Docker · Vitest**
+
+Designed, developed, and deployed a full-stack appointment scheduling platform with separate customer-facing and backend applications, using two HTTPS subdomains under `founderdesign.com`.
+
+**Frontend — `appointment_web` (private repository)**
+
+- Built a responsive five-step booking flow for contact information, service, date, time, and confirmation, with account-based email verification and validated contact details.
+- Implemented customer account access, appointment management, cancellation and rescheduling workflows, and accessible help dialogs.
+- Added TypeScript checks and Vitest tests; deployed a Next.js static export to cPanel.
+
+**Backend — `appointment_api` (private repository)**
+
+- Developed Django REST APIs for appointment availability, capacity-controlled bookings, staff assignments, cancellations, and rescheduling.
+- Implemented Django session authentication, CSRF protection, role-based permissions, and customer/staff email notifications with calendar invitations.
+- Configured the application for PostgreSQL and MySQL/MariaDB, with database-specific dependencies, Docker-based local development, and cPanel deployment.
+
+**[Live appointment website](https://appointment.founderdesign.com/)** · **[Live API](https://api-appointment.founderdesign.com/)**
+
+*Both GitHub repositories (`appointment_web` and `appointment_api`) are private; source code is not publicly accessible.*
+
 ### AI Engineering — RAG, Agents & Multilingual Document Q&A
 
 **LangGraph · LangChain · OpenAI APIs · FAISS · PyTorch · MiniLM · Qwen**
@@ -109,6 +131,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
+- **Appointment Booking:** [Live website](https://appointment.founderdesign.com/)
 - **Demo:** [QR Code Creator](https://qrcode.founderdesigngroup.ca/)
 
 I’m interested in opportunities where I can contribute to **senior full-stack engineering, frontend platform development, backend services, or AI-enabled products**.
