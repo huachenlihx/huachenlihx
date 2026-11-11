@@ -74,21 +74,28 @@ A production-oriented QR code generator with customizable designs, logo overlays
 
 ### Appointment Booking Platform — Full-Stack Web Application
 
-**Next.js 16 · React 19 · TypeScript · Tailwind CSS · Python · Django REST Framework · PostgreSQL · MySQL / MariaDB · Docker · Vitest**
+**Next.js 16 · React 19 · TypeScript · Tailwind CSS · Python · Django REST Framework · PostgreSQL · MySQL / MariaDB · Docker · AWS · Vitest**
 
-Designed, developed, and deployed a full-stack appointment scheduling platform with separate customer-facing and backend applications, using two HTTPS subdomains under `founderdesign.com`.
+Designed, developed, and deployed a full-stack appointment scheduling platform with separate customer-facing and backend applications, secure session authentication, role-based permissions, and automated appointment notifications. The production application runs across two HTTPS subdomains under `founderdesign.com`.
 
 **Frontend — `appointment_web` (private repository)**
 
-- Built a responsive five-step booking flow for contact information, service, date, time, and confirmation, with account-based email verification and validated contact details.
-- Implemented customer account access, appointment management, cancellation and rescheduling workflows, and accessible help dialogs.
+- Built a responsive five-step booking flow covering contact information, service selection, date, time, and confirmation, with sign-in required before proceeding and validated contact details.
+- Implemented customer account management, appointment history, cancellation and rescheduling workflows, and accessible help dialogs.
 - Added TypeScript checks and Vitest tests; deployed a Next.js static export to cPanel.
 
 **Backend — `appointment_api` (private repository)**
 
 - Developed Django REST APIs for appointment availability, capacity-controlled bookings, staff assignments, cancellations, and rescheduling.
 - Implemented Django session authentication, CSRF protection, role-based permissions, and customer/staff email notifications with calendar invitations.
-- Configured the application for PostgreSQL and MySQL/MariaDB, with database-specific dependencies, Docker-based local development, and cPanel deployment.
+- Built scheduled appointment reminders with independent customer/staff send tracking, selective retries after email failures, and concurrency protection for scheduled runs.
+- Configured PostgreSQL and MySQL/MariaDB compatibility, database migrations, Docker-based development and deployment environments, and production deployment on cPanel.
+
+**Cloud & Deployment**
+
+- Containerized the application stack using Docker Compose with Django, PostgreSQL, Next.js, Nginx, and Mailpit.
+- Worked with AWS S3 APIs for static frontend asset storage and website-hosting experiments, alongside Lambda API testing.
+- Configured environment-specific deployment workflows, HTTPS, cross-origin authentication, and CSRF protection.
 
 **[Live appointment website](https://appointment.founderdesign.com/)** · **[Live API](https://api-appointment.founderdesign.com/)**
 
