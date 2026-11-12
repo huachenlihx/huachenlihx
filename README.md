@@ -32,7 +32,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 ## Selected work
 
-### Earlier Professional Node.js Backend Work — United Supermarket (2018–2019)
+### Professional Node.js Backend Work — United Supermarket
 
 **Node.js · REST APIs · User Authentication · Product Management**
 
