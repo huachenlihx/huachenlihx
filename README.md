@@ -1,8 +1,8 @@
 # Hua Chen
 
-### Senior Full-Stack Software Engineer | React & Next.js | Python & Django | AI / LLM Applications
+### Senior Full-Stack Software Engineer | React & Next.js | Node.js & Python/Django | AI Engineering
 
-I’m a software engineer based in Ontario, Canada, with **17+ years of professional software development experience** building and maintaining production applications. I work across frontend architecture, backend APIs, database integration, automated testing, and delivery pipelines. More recently, I’ve been building practical **AI-powered applications** using LangGraph, OpenAI APIs, retrieval-augmented generation (RAG), and vector search.
+I’m a software engineer based in Ontario, Canada, with **17+ years of professional software development experience** building and maintaining production applications. I work across frontend architecture, Node.js and Python backend APIs, database integration, automated testing, and delivery pipelines. More recently, I’ve been building practical **AI-powered applications** using LangGraph, OpenAI APIs, retrieval-augmented generation (RAG), and vector search.
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
@@ -10,10 +10,11 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 ## What I bring
 
-- **Production full-stack engineering:** React, Next.js, TypeScript, Python, Django, Django REST Framework, REST APIs, and WebSockets.
+- **Production full-stack engineering:** React, Next.js, TypeScript, Node.js, Python, Django, Django REST Framework, REST APIs, and WebSockets. My earlier Node.js backend work at United Supermarket included user authentication and product-management services.
 - **Enterprise software delivery:** Developed and maintained production applications at **NCR / Candescent (2021–2026)**, including reusable React components shared across multiple applications and development teams, and real-time UI updates powered by WebSockets.
 - **AI application development:** Designed document ingestion and chunking, embedding and vector retrieval pipelines, LangGraph orchestration, grounded LLM responses, and AI-assisted training features.
-- **Quality and delivery:** Playwright end-to-end testing, automated testing, Git, Jenkins pipelines, Docker, and accessibility-conscious frontend development using WCAG guidance.
+- **Quality and delivery:** Authored and maintained Jenkinsfiles and Jenkins CI jobs, investigated build failures, developed Playwright end-to-end tests, and worked with Git, Docker, code reviews, and WCAG guidance.
+- **AI-assisted engineering workflows:** Use Claude Code, Cursor, and OpenAI Codex (configured in VS Code); developed and customized Cursor skills, rules, hooks, and automation for code reviews, task planning, performance analysis, and Git/Jira workflows.
 - **Experience beyond the JavaScript ecosystem:** Professional Java development at Tekdesk, C#, AWS services, SQL databases, and backend systems.
 
 ## Technology stack
@@ -21,14 +22,24 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 | Area | Technologies |
 | --- | --- |
 | **Frontend** | React, Next.js, React Native (Expo), TypeScript, JavaScript, Tailwind CSS, shadcn/ui |
-| **Backend** | Python, Django, Django REST Framework, REST APIs, WebSockets, Java, C# |
+| **Backend** | Node.js (REST APIs, authentication, product management), Python, Django, Django REST Framework, REST APIs, WebSockets, Java, C# |
 | **AI / LLM** | LangGraph, LangChain, OpenAI APIs, RAG, embeddings, FAISS, PyTorch, multilingual MiniLM, Qwen |
+| **AI coding agents** | Claude Code, Cursor, OpenAI Codex (VS Code), customized Cursor skills, rules, hooks, and workflows |
 | **Databases** | PostgreSQL, MySQL, MariaDB, Microsoft SQL Server |
-| **Cloud & DevOps** | AWS (EC2, S3, RDS, Lambda, Elastic Beanstalk), Docker, Jenkins, Git, CI/CD, cPanel |
+| **Cloud & DevOps** | AWS (EC2, S3, RDS, Lambda, Elastic Beanstalk), Docker, Jenkins (Jenkinsfiles, CI jobs, build troubleshooting), Git, CI/CD, cPanel |
 | **Testing & Quality** | Playwright, Vitest, accessibility / WCAG, API testing |
 | **Collaboration** | Jira, Agile development, code reviews, cross-team reusable components |
 
 ## Selected work
+
+### Earlier Professional Node.js Backend Work — United Supermarket (2018–2019)
+
+**Node.js · REST APIs · User Authentication · Product Management**
+
+- Developed Node.js backend services for user authentication and product management.
+- Designed REST API endpoints and implemented server-side business logic supporting these functions.
+
+*This describes my earlier professional role at United Supermarket (2018–2019), separately from the more recent Next.js/Django applications described below. The original project source is not publicly available.*
 
 ### United Supermarket — Business Applications & AI Integration
 
@@ -112,6 +123,19 @@ I design and develop practical AI capabilities that connect language models to a
 - **Local multilingual document Q&A (exploratory project):** Worked with multilingual MiniLM embeddings, PyTorch-based similarity retrieval, LangGraph, and a local Qwen model to explore private, document-based question answering. Evaluated grounding limitations when a model's answer did not reliably follow retrieved context.
 
 *The United Supermarket implementation is part of the business application above; private application code and business content are not publicly shared.*
+
+## AI Coding Agents & Developer Workflows
+
+**Claude Code · Cursor · OpenAI Codex (VS Code) · Bash · PowerShell · Python · Git/Jira**
+
+Alongside building AI-enabled applications, I use AI coding agents in day-to-day engineering and have developed and customized supporting development workflows:
+
+- Configured OpenAI Codex in Visual Studio Code and worked with Claude Code and Cursor for development, debugging, and code review.
+- Developed and customized Cursor skills and rules for React code review, performance optimization, and persistent planning across multi-step tasks.
+- Worked with Bash/PowerShell hooks and Python scripts supporting agent workflows, browser automation, and Git/Jira branch synchronization.
+- Use automated tests, code review, and CI validation to assess generated code rather than treating AI output as automatically correct.
+
+*Some tools and supporting workflow components are third-party; the description above refers to my own configuration, development, and customization work.*
 
 ## Open-source React / TypeScript packages
 
