@@ -6,7 +6,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
-[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [npm packages](https://www.npmjs.com/~huachenlihx)
+[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [Python package on PyPI](https://pypi.org/project/django-accounts-framework-fdg/) · [npm packages](https://www.npmjs.com/~huachenlihx)
 
 ## What I bring
 
@@ -137,6 +137,25 @@ Alongside building AI-enabled applications, I use AI coding agents in day-to-day
 
 *Some tools and supporting workflow components are third-party; the description above refers to my own configuration, development, and customization work.*
 
+## Open-source Python package
+
+### [Django Accounts Framework FDG](https://pypi.org/project/django-accounts-framework-fdg/)
+
+**Python · Django · Django REST Framework · Authentication · Role-Based Permissions**
+
+Developed and published a reusable Django authentication and account-management package on **PyPI**, with its [source code on GitHub](https://github.com/huachenlihx/django-accounts-framework-fdg).
+
+- Supports email-based registration, sign-in, account activation, password resets, and user administration.
+- Provides a custom user model with public UUID identifiers, Django Group-based roles, and a Role Setup Wizard.
+- Includes configurable forced-password-change policies, password validation, activation-link expiration, and email templates.
+- Designed for integration into **new Django projects**; packaged with migrations and automated tests.
+
+```bash
+pip install django-accounts-framework-fdg
+```
+
+**[PyPI package](https://pypi.org/project/django-accounts-framework-fdg/)** · **[GitHub repository](https://github.com/huachenlihx/django-accounts-framework-fdg)**
+
 ## Open-source React / TypeScript packages
 
 I publish reusable tools for React and Next.js development. Selected packages:
@@ -160,6 +179,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 
 - **Email:** `huachenlihx@gmail.com`
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
+- **PyPI:** [django-accounts-framework-fdg](https://pypi.org/project/django-accounts-framework-fdg/)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
 - **Appointment Booking:** [Live website](https://appointment.founderdesign.com/)
