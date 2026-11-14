@@ -6,7 +6,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
-[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [Python package on PyPI](https://pypi.org/project/django-accounts-framework-fdg/) · [npm packages](https://www.npmjs.com/~huachenlihx)
+[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [Python packages on PyPI](https://pypi.org/user/huachenlihx/) · [npm packages](https://www.npmjs.com/~huachenlihx)
 
 ## What I bring
 
@@ -137,7 +137,7 @@ Alongside building AI-enabled applications, I use AI coding agents in day-to-day
 
 *Some tools and supporting workflow components are third-party; the description above refers to my own configuration, development, and customization work.*
 
-## Open-source Python package
+## Open-source Python packages
 
 ### [Django Accounts Framework FDG](https://pypi.org/project/django-accounts-framework-fdg/)
 
@@ -155,6 +155,23 @@ pip install django-accounts-framework-fdg
 ```
 
 **[PyPI package](https://pypi.org/project/django-accounts-framework-fdg/)** · **[GitHub repository](https://github.com/huachenlihx/django-accounts-framework-fdg)**
+
+### [Custom Timezone FDG](https://pypi.org/project/custom-timezone-fdg/)
+
+**Python · Time Zones · IANA ZoneInfo · Daylight Saving Time · Django Integration**
+
+Developed and published a reusable Python timezone utility package on **PyPI**, with optional Django integration and configurable business time zones.
+
+- Provides timezone-aware datetime conversion, parsing, formatting, and localization using IANA timezone identifiers.
+- Handles daylight saving time edge cases, including ambiguous and nonexistent local times.
+- Supports configuration overrides and optional Django settings and middleware integration.
+- Includes automated tests and is packaged for reuse across Python and Django projects.
+
+```bash
+pip install custom-timezone-fdg
+```
+
+**[PyPI package](https://pypi.org/project/custom-timezone-fdg/)** · **[GitHub repository](https://github.com/huachenlihx/custom_timezone_fdg)**
 
 ## Open-source React / TypeScript packages
 
@@ -179,7 +196,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 
 - **Email:** `huachenlihx@gmail.com`
 - **GitHub:** [github.com/huachenlihx](https://github.com/huachenlihx)
-- **PyPI:** [django-accounts-framework-fdg](https://pypi.org/project/django-accounts-framework-fdg/)
+- **PyPI:** [pypi.org/user/huachenlihx](https://pypi.org/user/huachenlihx/)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
 - **Appointment Booking:** [Live website](https://appointment.founderdesign.com/)
