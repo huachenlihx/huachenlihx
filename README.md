@@ -1,6 +1,6 @@
 # Hua Chen
 
-### ### Senior Full-Stack Software Engineer | Node.js & Python/Django | React & Next.js | React Native/Expo | AI Engineering
+### Senior Full-Stack Software Engineer | Node.js & Python/Django | React & Next.js | React Native/Expo | AI Engineering
 
 I’m a software engineer based in Ontario, Canada, with **17+ years of professional software development experience** building and maintaining production applications. I work across frontend architecture, Node.js and Python backend APIs, database integration, automated testing, and delivery pipelines. More recently, I’ve been building practical **AI-powered applications** using LangGraph, OpenAI APIs, retrieval-augmented generation (RAG), and vector search.
 
