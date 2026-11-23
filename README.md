@@ -6,7 +6,7 @@ I’m a software engineer based in Ontario, Canada, with **17+ years of professi
 
 **Open to opportunities:** Senior Software Engineer · Full-Stack Developer · AI Application Engineer
 
-[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [Python packages on PyPI](https://pypi.org/user/huachenlihx/) · [npm packages](https://www.npmjs.com/~huachenlihx)
+[United Supermarket live website](https://adelaide.unitedsupermarketlondon.ca/) · [Appointment Booking live demo](https://appointment.founderdesign.com/) · [Appointment Mobile source](https://github.com/huachenlihx/appointment-mobile) · [QR Code Creator live demo](https://qrcode.founderdesigngroup.ca/) · [GitHub repositories](https://github.com/huachenlihx?tab=repositories) · [Python packages on PyPI](https://pypi.org/user/huachenlihx/) · [npm packages](https://www.npmjs.com/~huachenlihx)
 
 ## What I bring
 
@@ -112,6 +112,22 @@ Designed, developed, and deployed a full-stack appointment scheduling platform w
 
 *Both GitHub repositories (`appointment_web` and `appointment_api`) are private; source code is not publicly accessible.*
 
+### Appointment Booking — React Native Mobile App (Android)
+
+**React Native · Expo SDK 57 · Expo Router · TypeScript · Django REST APIs · Session Authentication · CSRF Protection · EAS Build**
+
+Built a native Android customer application for the existing Appointment Booking platform, using the same Django backend as the Next.js website rather than a separate mobile backend.
+
+- Implemented customer registration and sign-in flows, account activation resend, password-reset requests, and password change, integrated with existing Django APIs.
+- Developed mobile screens for services, availability, booking, appointment history, rescheduling, and cancellation; booking-related workflows require further end-to-end validation.
+- Integrated Django session-cookie authentication and CSRF protection with a New Architecture-compatible native cookie manager; resolved an Android HTTPS CSRF 403 issue by supplying the expected API origin on state-changing requests.
+- **Verified login and session persistence on a physical Samsung Android tablet**, including remaining signed in after fully closing and reopening the application.
+- Configured Expo Application Services (EAS) Android development builds and support for portrait/landscape orientation.
+
+**[Mobile source (GitHub)](https://github.com/huachenlihx/appointment-mobile)** · **[Live web application](https://appointment.founderdesign.com/)**
+
+*Android development build tested; Google Play publication is planned but not completed. Additional booking, registration, logout, and release testing remains.*
+
 ### AI Engineering — RAG, Agents & Multilingual Document Q&A
 
 **LangGraph · LangChain · OpenAI APIs · FAISS · PyTorch · MiniLM · Qwen**
@@ -199,7 +215,7 @@ I care about **maintainability, reusable architecture, accessible interfaces, re
 - **PyPI:** [pypi.org/user/huachenlihx](https://pypi.org/user/huachenlihx/)
 - **npm:** [npmjs.com/~huachenlihx](https://www.npmjs.com/~huachenlihx)
 - **Live business application:** [United Supermarket Adelaide](https://adelaide.unitedsupermarketlondon.ca/)
-- **Appointment Booking:** [Live website](https://appointment.founderdesign.com/)
+- **Appointment Booking:** [Live website](https://appointment.founderdesign.com/) · [React Native mobile source](https://github.com/huachenlihx/appointment-mobile)
 - **Demo:** [QR Code Creator](https://qrcode.founderdesigngroup.ca/)
 
 I’m interested in opportunities where I can contribute to **senior full-stack engineering, frontend platform development, backend services, or AI-enabled products**.
