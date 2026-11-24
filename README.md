@@ -155,52 +155,30 @@ Alongside building AI-enabled applications, I use AI coding agents in day-to-day
 
 ## Open-source Python packages
 
-### [Django Accounts Framework FDG](https://pypi.org/project/django-accounts-framework-fdg/)
+I develop and publish reusable Python and Django packages on PyPI, with source code and documentation on GitHub.
 
-**Python · Django · Django REST Framework · Authentication · Role-Based Permissions**
+| Package | PyPI | GitHub | Keywords | Purpose |
+| --- | --- | --- | --- | --- |
+| **django-admin-management-fdg** | [PyPI](https://pypi.org/project/django-admin-management-fdg/) | [Repository](https://github.com/huachenlihx/django-admin-management-fdg) | Python, Django Admin, REST, RBAC, audit logging | Adds custom model- and object-level management buttons, pages, protected endpoints, grouped navigation and dashboard components. |
+| **django-admin-branding-fdg** | [PyPI](https://pypi.org/project/django-admin-branding-fdg/) | [Repository](https://github.com/huachenlihx/django-admin-branding-fdg) | Python, Django Admin, branding, static assets | Customizes the admin header, browser title, login logo and favicon through one configuration setting. |
+| **django-notfound-page-fdg** | [PyPI](https://pypi.org/project/django-notfound-page-fdg/) | [Repository](https://github.com/huachenlihx/django-notfound-page-fdg) | Python, Django, HTTP 404, JSON APIs, templates | Provides configurable 404 pages with optional JSON responses for API requests. |
+| **django-accounts-framework-fdg** | [PyPI](https://pypi.org/project/django-accounts-framework-fdg/) | [Repository](https://github.com/huachenlihx/django-accounts-framework-fdg) | Python, Django, DRF, authentication, RBAC, UUID | Provides reusable account registration, activation, password resets, user administration and role management for new Django projects. |
+| **custom-timezone-fdg** | [PyPI](https://pypi.org/project/custom-timezone-fdg/) | [Repository](https://github.com/huachenlihx/custom_timezone_fdg) | Python, ZoneInfo, IANA time zones, DST, Django | Provides configurable business time zones, aware datetime conversion, parsing and formatting, with DST edge-case handling and optional Django integration. |
 
-Developed and published a reusable Django authentication and account-management package on **PyPI**, with its [source code on GitHub](https://github.com/huachenlihx/django-accounts-framework-fdg).
-
-- Supports email-based registration, sign-in, account activation, password resets, and user administration.
-- Provides a custom user model with public UUID identifiers, Django Group-based roles, and a Role Setup Wizard.
-- Includes configurable forced-password-change policies, password validation, activation-link expiration, and email templates.
-- Designed for integration into **new Django projects**; packaged with migrations and automated tests.
-
-```bash
-pip install django-accounts-framework-fdg
-```
-
-**[PyPI package](https://pypi.org/project/django-accounts-framework-fdg/)** · **[GitHub repository](https://github.com/huachenlihx/django-accounts-framework-fdg)**
-
-### [Custom Timezone FDG](https://pypi.org/project/custom-timezone-fdg/)
-
-**Python · Time Zones · IANA ZoneInfo · Daylight Saving Time · Django Integration**
-
-Developed and published a reusable Python timezone utility package on **PyPI**, with optional Django integration and configurable business time zones.
-
-- Provides timezone-aware datetime conversion, parsing, formatting, and localization using IANA timezone identifiers.
-- Handles daylight saving time edge cases, including ambiguous and nonexistent local times.
-- Supports configuration overrides and optional Django settings and middleware integration.
-- Includes automated tests and is packaged for reuse across Python and Django projects.
-
-```bash
-pip install custom-timezone-fdg
-```
-
-**[PyPI package](https://pypi.org/project/custom-timezone-fdg/)** · **[GitHub repository](https://github.com/huachenlihx/custom_timezone_fdg)**
+**[View my PyPI profile](https://pypi.org/user/huachenlihx/)**
 
 ## Open-source React / TypeScript packages
 
-I publish reusable tools for React and Next.js development. Selected packages:
+I publish reusable frontend components and data-processing utilities on npm for React and Next.js development. Selected packages:
 
-| Package | Purpose |
-| --- | --- |
-| [pdfjs-embed-viewer](https://www.npmjs.com/package/pdfjs-embed-viewer) | PDF embedding and viewing in React / Next.js |
-| [form_recaptcha](https://www.npmjs.com/package/form_recaptcha) | Reusable CAPTCHA component for web forms |
-| [pagination-dropdown-select](https://www.npmjs.com/package/pagination-dropdown-select) | Dropdown selection with pagination |
-| [complex-column-csv-exporter](https://www.npmjs.com/package/complex-column-csv-exporter) | CSV export for complex data structures |
-| [json-column-csv-blob](https://www.npmjs.com/package/json-column-csv-blob) | CSV/Blob utilities for JSON-based data |
-| [display-buffered-pdf](https://www.npmjs.com/package/display-buffered-pdf) | Displaying PDF buffer content |
+| Package | npm | GitHub | Keywords | Purpose |
+| --- | --- | --- | --- | --- |
+| **pdfjs-embed-viewer** | [npm](https://www.npmjs.com/package/pdfjs-embed-viewer) | [Repository](https://github.com/huachenlihx/pdfjs-embed-viewer) | React, Next.js, TypeScript, PDF.js | Embeds and renders PDF documents in React and Next.js applications. |
+| **form_recaptcha** | [npm](https://www.npmjs.com/package/form_recaptcha) | [Repository](https://github.com/huachenlihx/form_recaptcha) | React, Next.js, TypeScript, CAPTCHA, forms | Provides a reusable CAPTCHA component with controlled state for web forms. |
+| **pagination-dropdown-select** | [npm](https://www.npmjs.com/package/pagination-dropdown-select) | [Repository](https://github.com/huachenlihx/pagination-dropdown-select) | React, Next.js, TypeScript, pagination, accessibility | Provides page navigation and page-size selection with keyboard accessibility. |
+| **complex-column-csv-exporter** | [npm](https://www.npmjs.com/package/complex-column-csv-exporter) | [Repository](https://github.com/huachenlihx/complex-column-csv-exporter) | CSV, data export, complex data structures | Exports complex data structures to CSV. |
+| **json-column-csv-blob** | [npm](https://www.npmjs.com/package/json-column-csv-blob) | [Repository](https://github.com/huachenlihx/json-column-csv-blob) | JSON, CSV, Blob, data conversion | Provides CSV and Blob utilities for JSON-based data. |
+| **display-buffered-pdf** | [npm](https://www.npmjs.com/package/display-buffered-pdf) | [Repository](https://github.com/huachenlihx/display-buffered-pdf) | React, Next.js, TypeScript, PDF, accessibility | Displays buffered PDF data with page navigation and download support. |
 
 **[View my npm profile](https://www.npmjs.com/~huachenlihx)**
 
